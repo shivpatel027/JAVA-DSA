@@ -1,5 +1,3 @@
-package Arrays;
-
 public class largestNum {
     public static int getLargest(int num[]) {
         int largest = Integer.MIN_VALUE; //-infinity

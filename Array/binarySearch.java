@@ -1,5 +1,3 @@
-package Arrays;
-
 public class binarySearch {
     public static int binarySearch(int num[], int key) {
         int start = 0, end = num.length-1;

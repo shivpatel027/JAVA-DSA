@@ -1,5 +1,3 @@
-package Arrays;
-
 public class subArray {
     public static void printSubArray(int number[]) {
         int ts = 0;

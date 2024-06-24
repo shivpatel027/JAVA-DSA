@@ -1,5 +1,3 @@
-package Arrays;
-
 public class pairsInArray {
     public static void printPairs(int num[]) {
         int tp = 0;

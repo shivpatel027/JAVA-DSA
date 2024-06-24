@@ -1,5 +1,3 @@
-package Arrays;
-
 public class initialization {
     public static void main(String[] args) {
         int numbers[] = new int[5];

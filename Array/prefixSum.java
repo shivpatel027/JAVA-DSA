@@ -1,5 +1,3 @@
-package Arrays;
-
 public class prefixSum {
     public static void maxSubArray(int numbers[]) {
         int currSum = 0;

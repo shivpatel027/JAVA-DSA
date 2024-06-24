@@ -1,5 +1,3 @@
-package Arrays;
-
 public class ReverseArray {
     public static void reverseArray(int numb[]) {
         int first = 0, last = numb.length - 1;

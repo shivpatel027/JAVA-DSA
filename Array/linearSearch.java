@@ -1,5 +1,3 @@
-package Arrays;
-
 public class linearSearch {
     public static int linearSearch(int numbers[], int key) {
         for(int i=0; i<numbers.length; i++) {

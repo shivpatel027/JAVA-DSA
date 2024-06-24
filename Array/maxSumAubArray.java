@@ -1,5 +1,4 @@
 // find the max sum of the sub array.
-package Arrays;
 
 public class maxSumAubArray {
     public static void maxSubArray(int numbers[]) {
