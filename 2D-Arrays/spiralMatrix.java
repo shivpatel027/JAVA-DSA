@@ -36,7 +36,6 @@ public class spiralMatrix {
             startRow++;
             endCOl--;
             endRow--;
-
         }
     }
     public static void main(String[] args) {
