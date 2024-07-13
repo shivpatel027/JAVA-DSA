@@ -6,5 +6,11 @@ public class hashMap {
         //create
         HashMap<String, Integer> hm = new HashMap<>();
 
-    }
+        //Insert
+        hm.put("India", 100);
+        hm.put("China", 150);
+        hm.put("US", 50);
+
+        System.out.println(hm);
+    }   
 }
