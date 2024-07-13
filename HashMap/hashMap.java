@@ -12,5 +12,9 @@ public class hashMap {
         hm.put("US", 50);
 
         System.out.println(hm);
+
+        //Get
+        int population = hm.get("India");
+        System.out.println(population);
     }   
 }
