@@ -1,6 +1,8 @@
 package HashMap;
 import java.util.HashMap;
 
+import Strings.palindrom;
+
 public class hashMap {
     public static void main(String[] args) {
         //create - O(1)
@@ -20,5 +22,9 @@ public class hashMap {
         //Contains Key - O(1)
         System.out.println(hm.containsKey("India"));
         System.out.println(hm.containsKey("Indonasia"));
+
+        //Rempove - O(1)
+        System.out.println(hm.remove("Indonasia"));
+        System.out.println(hm);
     }   
 }
