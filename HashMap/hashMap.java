@@ -26,5 +26,12 @@ public class hashMap {
         //Rempove - O(1)
         System.out.println(hm.remove("Indonasia"));
         System.out.println(hm);
+
+        //Size
+        System.out.println(hm.size());
+
+        //Is Empty
+        hm.clear();
+        System.out.println(hm.isEmpty());
     }   
 }
