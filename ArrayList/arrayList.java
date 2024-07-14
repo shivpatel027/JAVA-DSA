@@ -34,6 +34,8 @@ public class arrayList {
         //Contais Elements
         System.out.println(list.contains(1));
         System.out.println(list.contains(12));
+
+        System.out.println(list.size());
     }
 }
  
