@@ -109,6 +109,23 @@ public class LinkedList {
         size--;
         return val;
     }
+
+    public int itrSearch(int key) {
+        Node temp = head;
+        int i = 0;
+
+        while(temp != null) {
+            if(temp.data == key) {
+                return i;
+            }
+            temp = temp.next;
+            i++;
+        }
+
+        //key not found
+        return -1;
+    }
+ 
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
         l.addFirst(1);
@@ -117,11 +134,9 @@ public class LinkedList {
         l.addLast(4);
         l.add(2,5);
         l.print();
-        l.removeFirst();
-        l.print(); 
-
-        l.removeLast();
-        l.print();
         System.out.println(size);
+
+        System.out.println(l.itrSearch(3));
+        System.out.println(l.itrSearch(32));
     }
 }
