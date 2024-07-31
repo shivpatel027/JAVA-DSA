@@ -8,9 +8,8 @@ public class problem5 {
 
         int fib1 = fib(n-1);
         int fib2 = fib(n-2);
-        int fn = fib1 + fib2;
-        return fn;
-    }
+        return fib1 + fib2;    
+    } 
 
     public static void main(String[] args) {
         System.out.println(fib(25));
